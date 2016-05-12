@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class OlaMundoController {
 
-	@RequestMapping("/olaMundoSpring")
+	@RequestMapping("/olaMundoSpring.do")
 	public String excute(Locale locale, Model model) {
 		System.out.println("Execuntando uma lógica com Spring MVC");
 		
